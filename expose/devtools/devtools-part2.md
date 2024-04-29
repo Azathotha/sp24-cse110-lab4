@@ -1,0 +1,2 @@
+1. num1 and num2 values are treated as strings instead of numbers, because they are got from input using getElementById().value, which returns strings, so when we performing addition with these values, JavaScript concatenates them instead of adding them numerically.
+2. Parse num1 and num2 as numbers using parseFloat(), so that num1 and num2 becomes numbers, and if they can't be parsed to numbers, the result will be NaN.
